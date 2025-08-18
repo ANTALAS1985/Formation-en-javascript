@@ -1,0 +1,1 @@
+alert('ceci est affiché dans un fichier sépéré javascript.js');
