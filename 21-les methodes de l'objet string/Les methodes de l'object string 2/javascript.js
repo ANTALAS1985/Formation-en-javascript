@@ -1,12 +1,10 @@
-//*les objets literale
+//* methode charAt
+var texte = "j'apprends le java script";
 
-var moi ={
-     prenom: "mustapha",
-     nom: "RAAB",
-     age: 40,
-     id: function(){
-          return this.prenom + " " + this.nom + " " + this.age;
+var pos0 = texte.charAt(0);
+var pos3 = texte.charAt(3);
+var pos11 = texte.charAt(11);
 
-     }
-}
-alert(moi.id());
+alert("position 0:" + pos0 +
+          "\nposition 3:" + pos3 +
+          "\nposition 11: " + pos11); 
