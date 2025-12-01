@@ -41,3 +41,13 @@ propmt();
 parserInt();
 ParserFloat();
 */
+// deusieme partie : les constantes.
+ const pi = 3.14;
+ document.write(pi);
+
+ /*const: la valeur constante ne peut pas etre modifiee.
+ type de données sonstant, mais contenu modifiable pour les objets et les tableaux.
+ */
+// on peut pas changer type de données pour les constant
+const data = 14;
+      data  = "14"; // erreur : on peut pas changer la valeur d'une constante.

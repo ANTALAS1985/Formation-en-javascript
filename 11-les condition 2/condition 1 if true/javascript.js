@@ -1,5 +1,5 @@
-var heure = 15;
+let heure = 15;
 
-if (heure <= 18 == true){alert("bonjour")}
+if (heure <= 18){ alert("Bonjour")}
 
 

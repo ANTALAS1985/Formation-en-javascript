@@ -1,12 +1,17 @@
-//Concaténation.
-var prenom ='Mustapha', espace ='  ', nom ='RAAB';
-var moi = prenom + espace + nom;
+//Concaténation des varibles
+let prenom = "mustapha" 
+const espace = ' ' 
+let nom = "RAAB";
 
-var toi = 'Rachid' + '  ' +  'zoubiri';
+const moi = prenom + espace + nom;
 
-var sport = 'courir';
-var hobbie = "j'aime" + espace + sport;
+// concatiner drectement chaine de caractere
+let toi = "RACHID" + ' ' + "RAAB";
 
-alert("Contenu de la variable moi :" + moi +
-    "\nContenu de la variable toi :" + toi +
-    "\nContenu de la variable hobbie: " + hobbie);
+//cncatiner des variables et des valeurs.
+let sport = "natation";
+const hobbie = "j'aimme le " + sport;
+
+alert("varible:" + moi+
+    "\nvariable:" + toi+
+    "\nVarible:" + hobbie);

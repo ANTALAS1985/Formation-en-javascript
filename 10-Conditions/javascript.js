@@ -1,19 +1,31 @@
-var x = 7,  y = 14;
+ // les operateurs de comparaison
+let x = 7;
+let y = 14;
 
-var vrai = x < y;
-var faux = 14 <= 7;
+//absolument inferieur
+let vrai = x < y;
 
-var egalval = 4 == "4";
+//inferieur ou egal
+let faux = 14 <= 7;
 
-var egalvaltype =  4 === "4";
+//egal en valeur
+let egalval = 4 == "4";
 
-var difval = 4 != "4";
+// egal en valeur et en type
+let egalvaltype = 4 === "4";
 
-var diftvaltype = 4 !== "4";
+//different en valeur
+let difval = 4 != "4"
 
-alert("vraistock: " + vrai +
-      "\nfauxstock: " + faux +
-      "\negalval : " + egalval +
-      "\negavalltype : " + egalvaltype +
-      "\ndifval : " + difval +
-      "\ndifvaltype : " + diftvaltype);
+//different en type et en valeur
+let difvaltype = 4 !== "4";
+
+const espace = " "
+
+alert("variable vrai:"+ espace + vrai +
+      "\nvarible: faux:"+ espace + faux+
+      "\nvarible egalval:"+ espace + egalval+
+      "\nvariable egalvaltype:" + espace + egalvaltype + 
+      "\nvariable difval:" + espace +difval +
+      "\nvariable difvaltype" +espace + difvaltype
+ );
