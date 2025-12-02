@@ -1,4 +1,4 @@
-var heure = "dix";
+let heure = "dix";
 
 if(typeof(heure)=="number"){
     if(heure<12 ==true){

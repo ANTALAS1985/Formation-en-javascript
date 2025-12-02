@@ -1,14 +1,14 @@
-var heure = 25;
+//les operateurs logique.&& 
+let heure = 18;
 
-if(heure >= 0 && heure < 12 == true){
-      alert("c'est le matin");
+if(heure>=0 && heure <12){
+      alert("c'est le matin")
 }
-else if(heure ===12 == true){
-      alert("ol est midi pile");
+else if(heure === 12){
+      alert("c'est midi pile")
 }
 else if(heure > 12 && heure <= 24){
-      alert(" C'est l'aprés midi ou le soir");
+      alert("c'est l'apres midi ou le soir")
+
 }
-else{
-      alert("la valeur entrée ne semble pas valide")
-}
+else{alert("la valeur entrée ne semble pas vilide")}

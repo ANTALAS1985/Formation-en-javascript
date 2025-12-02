@@ -1,8 +1,9 @@
-var heure = 18;
+//les operateurs logique contraire !
+let heure = 18;
 
-if (!(heure <=16)==true){
-      alert("il est plus de 16h")
+if (!(heure <= 16)){
+      alert("il est plus de 16 heure")
 }
 else{
-      alert("il est moins de 16h")
+      alert("il est moin de 16h")
 }

@@ -1,8 +1,11 @@
-var heure = 12;
-if (heure < 0 || heure > 24 == true){
-    alert("l'heure est invalide");
+// operateur logique ou || 
+let heure = 26;
+if( heure < 0 || heure > 24){
+    alert("l'heure est pas valide")
 }
 else{
-    alert("l'heure semble valide");
+    alert("l'heure est valide")
 }
+
+
 

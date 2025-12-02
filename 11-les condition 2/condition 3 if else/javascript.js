@@ -1,8 +1,10 @@
-var heure = 21;
+// les condition if et else
 
-if (heure <= 18 == true){
-    alert("bonjour");
-}
-else{
-    alert("bonsoir");
-}
+    let heure = 21;
+
+    if (heure <= 18){
+        alert("bonjour");
+    }
+    else{
+        alert("bonsoir");
+    }
