@@ -1,12 +1,6 @@
-var heure = 19,  bon = "";
+// les opérateurs ternaires
+let heure = 19 ;
+let  bon = "";
 
-bon = (heure <= 18)? "Bonjour" : "Bonsoir";
-alert (bon);
-
-if (heure <= 18){
-    bon = "bonjour"
-}
-else{
-    bon = "Bonsoir"
-}
+     bon = (heure <= 18) ? "bonjour" : "Bonsoir";
 alert(bon);
