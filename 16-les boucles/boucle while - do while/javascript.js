@@ -1,6 +1,8 @@
-var x = 0;
+// Exemple de boucle do...while
+let x = 0;
+
 do{
-alert('x vaut :' + x);
-x--;
+    alert("x vaut  : " + x);
+    x--
 }
-while (x > 10);
+while(x > 10);

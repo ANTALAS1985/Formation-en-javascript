@@ -1,15 +1,22 @@
-var premitive  = "je suis une valeur primitive";
+// Déclaration d'une variable de type primitif (string)
+let primitive = "je suis une valeur primitive";
 
-var moiobjet = {
-    prenom: "Mustapha",
-    nom:"RAAB",
+//variable de type objet
+//moi est un objet littéral.
+let moi = {
+    prenom : "mustapha",//prenom, nom et age sont des propriétés de l'objet moi
+    nom : "RAAB",
     age: 40,
 
-    identité : function(){
-        return 'Prénom:' + this.prenom+
-               '\nNom :' + this.nom+
-            '\nAge:' + this.age;
-    }
+    //identite est une méthode de l'objet moi 
+ //Une méthode est une fonction stockée dans une propriété d’un objet.
+   
+ identite : function(){ 
+       
+        return "Pénom: " + this.prenom+
+              "\nNom: "+ this.nom +
+              "\nAge: " +this.age;   
+            }
 }
-
-alert(moiobjet.identité());
+//appel de la méthode identite de l'objet moi
+alert(moi.identite());
