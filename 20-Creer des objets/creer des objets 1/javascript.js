@@ -8,4 +8,7 @@ obj_cree.prenom = "mustapha";
 obj_cree.nom = "RAAB";
 obj_cree.age = 40;
 
-alert(obj_cree.prenom);
+alert("afficher le prenom  :" + obj_cree.prenom +
+    "\n affcher le nom :" + obj_cree.nom +
+    "\n afficher l'age :" + obj_cree.age
+);
