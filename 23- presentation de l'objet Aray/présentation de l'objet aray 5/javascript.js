@@ -5,5 +5,4 @@ let prenom = ["mustapha", "Rachid", "Sonia", "zahra"],
 for (let i = 0; i < prenom.length; i++){
     p+= "prenom n° " + (i+1) + " : " + prenom[i] + "\n";
 }
-
-alert(p);
+alert
